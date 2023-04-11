@@ -5,3 +5,4 @@ RUN npm install
 COPY . .
 EXPOSE 8080
 CMD ["node", "server.js"] 
+#Docker com fabricio veronez v3 
