@@ -158,7 +158,7 @@ docker image prune
 
 docker image rm <id da imagem ou nome da imagem>
 
-docker tag tuliosuzasl2021/ubuntu-curl:v1 tuliosuzasl2021/ubuntu-curl:latest
+docker tag suprem3/ubuntu-curl:v1 suprem3/ubuntu-curl:latest
 
 - OpÃ§Ãµes de uso no Dockerfile -
 
