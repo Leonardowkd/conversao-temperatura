@@ -202,7 +202,7 @@ Harbor - On primes - rodar em seu dada center em um servidor.
 Nomeando sua imagem Docker
 
 username/repositorio:tag
-tuliosouzasl2021/teste:v1
+suprem3/teste:v1
 
 Autenticar -
 
@@ -210,14 +210,14 @@ docker login
 Usernamen:
 Password:
 
-docker push tuliosouzasl2021/ubuntu-curl:v1
+docker push suprem3/ubuntu-curl:v1
 
 
 
 # ConversÃ£o de temperatura #
 
 
-git clone git@github.com:tuliosouzasl2021/conversao-temperatura.git
+git clone git@github.com:suprem3/conversao-temperatura.git
 
 Entrar na pasta do projeto e criar o dockerfile
 
@@ -232,8 +232,8 @@ CMD ["node", "server.js"]
 
 Gerar imagem
 
-docker build -t tuliosouzasl2021/conversao-temperatura:v1
-docker build -t tuliosouzasl2021/conversao-temperatura:latest
+docker build -t suprem3/conversao-temperatura:v1
+docker build -t suprem3/conversao-temperatura:latest
 
 Fazer o push para o dockerhub
 
@@ -241,10 +241,10 @@ docker login
 Username:
 Password:
 
-docker push tuliosouzasl2021/conversao-temperatura:v1
-docker push tuliosouzasl2021/conversao-temperatura:latest
+docker push suprem3/conversao-temperatura:v1
+docker push suprem3/conversao-temperatura:latest
 
 Subir container
 
-docker container run -d -p 8080:8080 tuliosouzasl2021/conversao-temperatura:v1
+docker container run -d -p 8080:8080 suprem3/conversao-temperatura:v1
 
