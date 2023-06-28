@@ -2,7 +2,6 @@
 ![image](https://github.com/Leonardowkd/conversao-temperatura/assets/98129908/06171066-82f7-46e5-ad4b-19de865a14aa)
 
 
-
 Projeto 
 
 Micro servico 
@@ -105,7 +104,7 @@ docker tag ubuntu-curl suprem3/ubuntu-curl:v1 ( renomeia a imagem )
 docker push  ( envia a imagem )
 docker login ( login no docker hub )
 docker logout ( remove as credenciais )
-
+docker pull node ( baixa a imagem do node)
 
 
 
@@ -124,6 +123,32 @@ CMD – define o comando para padrao
 ARG – define o argumento pra ser usado no processo de construcao 
 ENTRYPOINT – ajuda a configurar o container 
 VOLUME – define o volume a ser definido 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
