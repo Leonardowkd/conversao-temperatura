@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![image](https://github.com/Leonardowkd/conversao-temperatura/assets/98129908/06171066-82f7-46e5-ad4b-19de865a14aa)
 
 
@@ -149,3 +150,12 @@ VOLUME – define o volume a ser definido
 
 
 
+=======
+# Projeto conversão de temperatura
+
+### Sobre o projeto
+O projeto conversão de temperatura é um projeto desenvolvido em NodeJS. O projeto tem como objetivo ser um exemplo para a criação de ambiente com containers usando NodeJS.
+
+### Observações do projeto
+A aplicação é exposta usando a porta 8080
+>>>>>>> bc37d89 (atualizacoes)

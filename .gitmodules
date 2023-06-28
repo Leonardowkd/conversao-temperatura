@@ -1,0 +1,3 @@
+[submodule "conversao-temperatura"]
+	path = conversao-temperatura
+	url = git@github.com:Leonardowkd/conversao-temperatura.git
